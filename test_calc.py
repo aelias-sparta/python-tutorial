@@ -32,7 +32,7 @@ class TestCalc(unittest.TestCase): # inheriting the unittest class functions
         #if error is not raised it will not passed.
         with self.assertRaises(ValueError):
             calc.divide(10, 0)
-
+# for changes
 
 if __name__ == '__main__':
     unittest.main()
